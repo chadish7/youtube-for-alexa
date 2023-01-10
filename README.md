@@ -8,11 +8,8 @@ To install watch [installation video](https://www.youtube.com/watch?v=mluD8kQ06N
   - use the python 3.9 runtime
   - Timeout 20 secs
   - Memory 1024MB
-- Use this [zip file](/lambda.zip) for the Lambda code
+- Use this [zip file](/blob/master/lambda.zip) for the Lambda code
 
 
 ### Text
 [Start Here](/youtube-api.md)
-## Recommended changes
-- Use python 3.9 as AWS Lambda run time.
-- Set AWS Lambda time out to 20 secs and 1024 Memory.
