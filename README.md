@@ -1,11 +1,18 @@
-Welcome to the documentation of youtube for alexa skill by Andrewstech
+# Alexa Youtube Lambda
+A helper AWS Lambda function to get Alexa to play YouTube songs/videos.
 
-Inorder to use this skill you must create a aws lambda account. however if you dont feel confident in doing this then donate a small donation of £2 or $4 and attach your email in the donation box and put you want an arn, then it will be setup for you. https://paypal.me/andrewstechshow (please note you will receive a aws arn for your skill.).
+## Installation
+### Video
+To install watch [installation video](https://www.youtube.com/watch?v=mluD8kQ06NM) from [Paul Hibert](https://www.youtube.com/@PaulHibbert) with the following changes:
+- Set the AWS Lambda Function to 
+  - use the python 3.9 runtime
+  - Timeout 20 secs
+  - Memory 1024MB
+- Use this [zip file](/lambda.zip) for the Lambda code
 
-If you feel you are confident then follow this link to continue https://github.com/andrewstech/youtube-for-alexa/blob/master/youtube-api.md
 
-If you like this project consider donating https://paypal.me/andrewstechshow
-
-if you have any issues please post them in the issues.
-
-
+### Text
+[Start Here](/youtube-api.md)
+## Recommended changes
+- Use python 3.9 as AWS Lambda run time.
+- Set AWS Lambda time out to 20 secs and 1024 Memory.
