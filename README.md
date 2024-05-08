@@ -5,9 +5,9 @@ A helper AWS Lambda function to get Alexa to play YouTube songs/videos.
 ### Video
 To install watch [installation video](https://www.youtube.com/watch?v=mluD8kQ06NM) from [Paul Hibert](https://www.youtube.com/@PaulHibbert) with the following changes:
 - Set the AWS Lambda Function to 
-  - use the python 3.9 runtime
+  - use the python 3.12 runtime
   - Timeout 20 secs
-  - Memory 1024MB
+  - Memory 2048MB
 - Use this [zip file](/lambda.zip) for the Lambda code
 
 
